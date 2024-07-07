@@ -6,8 +6,8 @@ const ebulicaoFahrenheit = 212.0
 
 func main() {
 
-	var temperaturaFahrenheit float64 = ebulicaoFahrenheit
-	var temperaturaCelsius float64 = (temperaturaFahrenheit - 32) * 5 / 9
+	temperaturaFahrenheit := ebulicaoFahrenheit
+	temperaturaCelsius := (temperaturaFahrenheit - 32) * 5 / 9
 
 	temperaturaFahrenheit = temperaturaCelsius*1.8 + 32
 
