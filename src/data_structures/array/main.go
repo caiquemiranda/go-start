@@ -9,16 +9,16 @@ func main() {
 	numbers[1] = 7.2
 	numbers[2] = 6.5
 	numbers[3] = 8.5
-	numbers[4] = 5.4
+	numbers[4] = 10.0
 
-	fmt.Print(numbers)
+	fmt.Println(numbers)
 
-	var total float64 = 0.0
+	var total float64 = 0
 
-	for i := 0; 0 < 5; i++ {
+	for i := 0; i < len(numbers); i++ {
 		total += numbers[i]
-		fmt.Println(total)
-	}
 
+	}
+	fmt.Println("A média dos valores do array é: ", total/float64(len(numbers)))
 
 }
