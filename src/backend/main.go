@@ -75,7 +75,7 @@ func main() {
 	people = append(people, Person{
 		ID: "2", 
 		Firstname: "Maria", 
-		Lastname: "Eduarda", 
+		Lastname: "Eduarda Miranda", 
 		Address: &Address{
 			City: "Salvador", 
 			State: "Bahia"}})
